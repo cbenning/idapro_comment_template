@@ -11,7 +11,7 @@ template_dict = {}
 def go_callback(*args):
 	temp_name = ''.join('%c' % c for c in args)
 	sEA = ScreenEA()
-	SetFunctionCmt(sEA,template_dict[temp_name],0)
+	SetFunctionCmt(sEA,template_dict[temp_name],True)
 	return 1
 
 
